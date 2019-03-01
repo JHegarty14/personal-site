@@ -2,16 +2,41 @@
   "name": "src",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jhegarty14.github.io/home",
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "create-react-class": "^15.6.3",
+    "express": "^4.16.4",
+    "final-form": "^4.11.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-sass": "^4.0.2",
+    "hover.css": "^2.3.2",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
-    "react-scripts": "2.1.5"
+    "react-final-form": "^4.0.2",
+    "react-modal": "^3.8.1",
+    "react-scripts": "2.1.5",
+    "react-select": "^2.4.0",
+    "react-typist": "^2.0.5",
+    "webpack": "^4.28.3",
+    "webpack-dev-server": "^3.1.14"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +46,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }

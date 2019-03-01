@@ -1,0 +1,89 @@
+.modal {
+    background: rgba(204, 204, 204, 0.9);
+    color: rgb(151, 2, 2);
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    right: 25vw;
+    bottom: 25px;
+    max-height: 50vh;
+    max-width: 50vw;
+    font-family: 'Montserrat', sans-serif;
+    animation: fadein .5s, fadeout .5s;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(197, 197, 197, 0.664);
+}
+
+.close_modal {
+    cursor: pointer;
+    width: 15px;
+    margin-left: calc(100% - 15px);
+}
+
+.modal_container {
+    padding: 10px 25px 0px 25px;
+}
+
+.modal_header {
+    font-size: 2rem;
+}
+
+.text_input {
+    background: rgba(204, 204, 204, 0.9);
+    border: 1px solid rgb(20, 20, 20);
+    font-family: 'Montserrat', sans-serif;
+    height: 20px;
+    width: 150px;
+}
+
+.input_container {
+    padding-top: 20px;
+}
+
+.modal_row {
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.modal_select{
+    width: 80%;
+}
+
+input {
+    margin-right: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+@keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+@keyframes fadeout {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
