@@ -3,7 +3,6 @@ import Typist from 'react-typist';
 import './Contact.css';
 import Modal from 'react-modal';
 import axios from 'axios';
-import { Form, Field } from 'react-final-form';
 import Select from 'react-select';
 
 const subjects = [
@@ -90,7 +89,6 @@ class Contact extends Component {
                   contentLabel="Contact"
                   className="modal"
                   overlayClassName="overlay">
-                    <a onClick={this.closeModal} className='close_modal'>X</a>
                     <div className="modal_container">
                         <div className="modal_header">Get In Touch</div>
                         <form onSubmit={this.submitForm}>
