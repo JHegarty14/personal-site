@@ -30,20 +30,11 @@ const vendor = [
       'image-webpack-loader'
     ]
   };
-  
-  const sassLoader = {
-    test: /\.(scss|sass)$/,
-    use: [
-      { loader: 'css-loader' },
-      { loader: 'sass-loader' }
-    ],
-    fallback: 'style-loader'
-  };
+
   
   module.exports = {
     vendor,
     jsonLoader,
     babelLoader,
     imgLoader,
-    sassLoader
   };

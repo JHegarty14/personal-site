@@ -2,26 +2,29 @@ import React, { Component } from 'react';
 import Typist from 'react-typist';
 
 var body = <div>{`Languages: {`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Javascript: 2 years experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Node.js: 2 years experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`React: 1 year experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Angular2+: 1 year experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`HTML5: 2 years experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`CSS3: 2 years experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`SASS: 1 year experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`C#: 1 year experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Python: <1 year experience`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Javascript: 4 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Node.js: 4 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`React: 3 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Angular2+: 3 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Python: 2 year experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`HTML5: 4 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`CSS3: 4 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`LESS: 3 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`SASS: 2 year experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`C#: 1 year experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Golang: 1 year experience,`}<br/>
     {`},`}<br/>
     {`Databases: {`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`SQL: 2 years experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`MongoDB: 2 years experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Redis: <1 year experience`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Postgres: 4 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`MongoDB: 4 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Redis: 1 year experience,`}<br/>
     {`},`}<br/>
     {`DevOps: {`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`AWS: 2 years experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Google Cloud Platform: 1 year experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Docker: 1 year experience`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Kubernetes: 1 year experience`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`AWS: 4 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Google Cloud Platform: 1 year experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Docker: 3 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Kubernetes: 3 years experience,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Drone: 2 years experience,`}<br/>
     {`}`}
 </div>
 

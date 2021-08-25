@@ -1,0 +1,15 @@
+version: '3'
+services:
+  react-ui:
+    tty: true
+    stdin_open: true
+    build:
+      context: ./
+    command: sh -c "npm install && npm start"
+    ports:
+      - "3000:3000"
+    container_name: react-ui
+    stdin_open: true
+    volumes:
+       - ./:/usr/src/app/
+       - ./node_modules:/usr/src/app/node_modules

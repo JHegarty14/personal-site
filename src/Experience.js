@@ -2,9 +2,19 @@ import React, { Component } from 'react';
 import Typist from 'react-typist';
 import './App.css';
 
-let body = <div>{`Lofty AI: {`}<br/>
+let body = <div>{`NASA Jet Propulsion Laboratory: {`}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;{`position: Software Engineer,`}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;{`startDate: April 2019,`}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;{`tech: [React, Angular6+, Django, Flask, Postgres, Docker, Amazon ECS, Kubernetes],`}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;{`responsibilities: {`}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{` 1: Lead frontend development in Angular6 for the JPL Tours management system,`}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{` 2: Currently writing custom applications in support of the Europa Clipper project`}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;{'}'}<br/>
+        {`},`}<br/>
+        {`Lofty AI: {`}<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;{`position: Software Engineer,`}<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;{`startDate: July 2018,`}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;{`endDate: April 2019,`}<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;{`tech: [Node.js, Angular6+, MongoDB, Redis, Docker, Kubernetes, Google Cloud Platform],`}<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;{`responsibilities: {`}<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{` 1: Managed a four person application team, ensuring all deadlines were met and new features `}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{` were ready for production,`}<br/>

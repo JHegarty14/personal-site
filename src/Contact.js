@@ -69,10 +69,9 @@ class Contact extends Component {
 
     render() {
         var body = <div><br/>{`Contact: {`}<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;{`Email: `}<a className="link" href="mailto:jmhegarty14@gmail.com">jmhegarty14@gmail.com</a><br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;{`LinkedIn: `}<a className="link" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/john-m-hegarty/">https://www.linkedin.com/in/john-m-hegarty/</a><br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;{`Github: `}<a className="link" rel="noopener noreferrer" target="_blank" href="https://github.com/jhegarty14">https://github.com/jhegarty14</a><br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;{`Bitbucket: `}<a className="link" rel="noopener noreferrer" target="_blank" href="https://bitbucket.org/jhegarty14/">https://bitbucket.org/jhegarty14/</a><br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;{`Email: `}<a className="link" href="mailto:jmhegarty14@gmail.com">jmhegarty14@gmail.com</a>,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;{`LinkedIn: `}<a className="link" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/john-m-hegarty/">https://www.linkedin.com/in/john-m-hegarty/</a>,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;{`Github: `}<a className="link" rel="noopener noreferrer" target="_blank" href="https://github.com/jhegarty14">https://github.com/jhegarty14</a>,<br/>
             {`}`}
         </div>
         let renderContainer = false //By default don't render anything

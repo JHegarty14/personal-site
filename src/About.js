@@ -7,17 +7,16 @@ var body = <div>{`Education: {`}<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;{`startDate: August 2013,`}<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;{`graduated: May 2017,`}<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;{`major: Psychology, B.A.,`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`minor: Chemistry`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`minor: Chemistry,`}<br/>
     {`},`}<br/>
     {`Hobbies: [`}<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;{`Audio Engineering,`}<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;{`Guitar,`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Running,`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Cooking,`}<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;{`Beer That Costs Too Much`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Muay Thai,`}<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;{`Boxing,`}<br/>
     {`],`}<br/>
     {`Open to New Opportunites: true,`}<br/>
-    {`Residence: "Los Angeles, CA"`}<br/>
+    {`Residence: Los Angeles, CA`}<br/>
 </div>
 
 class About extends Component {

@@ -26,7 +26,6 @@ const config = {
         configs.jsonLoader,
         configs.babelLoader,
         configs.imgLoader,
-        configs.sassLoader
       ]
     },
     plugins: [
