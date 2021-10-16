@@ -78,7 +78,7 @@ class App extends Component {
         <div className="App">
           <div className="hero">
             <div className="introduction" ref="introduction">
-              <p className="intro_text">Hi, I'm <span className="name">Jack Hegarty</span>. <br/> I'm an LA-based software engineer specializing in MEAN/MERN stack application development.</p>
+              <p className="intro_text">Hi, I'm <span className="name">Jack Hegarty</span>. <br/> I'm an LA-based software engineer specializing in enterprise-scale application development.</p>
             </div>
             <i className="large material-icons down_arrow hvr-wobble-vertical" onClick={() => this.handleScrollDown()}>arrow_downward</i>
           </div>
@@ -104,7 +104,7 @@ class App extends Component {
         <div className="App">
           <div className="hero">
             <div className="introduction_mobile" ref="introduction">
-              <p className="intro_mobile">Hi, I'm <span className="name">Jack Hegarty</span>. <br/> I'm an LA-based software engineer specializing in MEAN/MERN stack application development.</p>
+              <p className="intro_mobile">Hi, I'm <span className="name">Jack Hegarty</span>. <br/> I'm an LA-based software engineer specializing in enterprise-scale application development.</p>
             </div>
             <div className="email_container"><div className="contact">Contact:<br/></div><a className="link_mobile" href="mailto:jmhegarty14@gmail.com">jmhegarty14@gmail.com</a></div>
           </div>
